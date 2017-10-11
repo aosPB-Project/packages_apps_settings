@@ -75,4 +75,9 @@
     <!-- Heads up -->
     <string name="heads_up_summary">Show select notifications as a banner across the top of the screen</string>
     <string name="heads_up_off">Heads up is disabled globally</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 </resources>

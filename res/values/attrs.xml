@@ -203,4 +203,6 @@
     <declare-styleable name="BackgroundPreference">
         <attr name="background" format="reference" />
     </declare-styleable>
+
+    <attr name="customPreferenceStyle" format="reference" />
 </resources>
