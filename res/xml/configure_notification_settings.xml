@@ -20,6 +20,17 @@
                   android:key="configure_notification_settings">
 
     <PreferenceCategory
+    android:title="@string/heads_up">
+
+    <!-- Less boring heads up -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="general_notifications_category"
         android:title="@string/general_notification_header">
         <!-- See all apps button -->
