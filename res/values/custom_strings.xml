@@ -96,4 +96,9 @@
     <string name="spoofing_pif_json_select_summary">Download and load the PIF JSON file from official PIF repo for passing play integrity</string>
     <string name="spoofing_pif_json_select_success">Successfully updated fingerprints. Now reboot to take effect.</string>
     <string name="spoofing_pif_json_select_failure">Failed to complete the operation.</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 </resources>
