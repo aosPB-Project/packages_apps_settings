@@ -43,14 +43,16 @@
         android:key="maintainer"
         android:title="@string/maintainer"
         android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
+        settings:enableCopying="false"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.aospbMaintainerPreferenceController"/>
 
     <!-- Security patch -->
     <Preference
         android:key="security_key"
         android:title="@string/security_patch"
-        settings:enableCopying="true"
+        settings:enableCopying="false"
+        android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
     <!-- Baseband -->
