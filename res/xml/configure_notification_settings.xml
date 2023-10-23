@@ -28,6 +28,13 @@
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
+
+    <!-- Heads up toggle -->
+    <com.android.settings.custom.preference.GlobalSettingSwitchPreference
+        android:key="heads_up_notifications_enabled"
+        android:title="@string/heads_up"
+        android:summary="@string/heads_up_summary"
+        android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
