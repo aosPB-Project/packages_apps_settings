@@ -26,4 +26,7 @@
 
     <!-- Download PIF JSON target -->
     <string name="spoofing_pif_json_download_url">https://raw.githubusercontent.com/aosPB-Project/PlayIntegrityFix/refs/heads/main/module/pif.json</string>
+
+    <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
+    <bool name="configShowDeviceSensitiveInfo">false</bool>
 </resources>
