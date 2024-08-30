@@ -10,5 +10,11 @@
         android:title="@string/battery_custs_title"
         android:summary="@string/battery_custs_summary"
         android:fragment="com.android.settings.aospb.misc.batteryCusts" />
+
+    <!-- Play Integrity Fix - JSON select -->
+    <Preference
+        android:key="pif_json_file_preference"
+        android:title="@string/spoofing_pif_json_select_title"
+        android:summary="@string/spoofing_pif_json_select_summary"/>
    
 </PreferenceScreen>
