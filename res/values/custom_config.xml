@@ -23,4 +23,7 @@
     
     <!-- Show Force LTE_CA toggle -->
     <bool name="config_showForceLteCaToggle" translatable="false">false</bool>
+
+    <!-- Download PIF JSON target -->
+    <string name="spoofing_pif_json_download_url">https://raw.githubusercontent.com/chiteroman/PlayIntegrityFix/main/module/pif.json</string>
 </resources>
