@@ -162,6 +162,14 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
+    <!-- QS Media Player Mode  -->
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_compact_media_player_mode"
+        android:title="@string/qs_compact_media_player_mode_title"
+        android:summary="@string/qs_compact_media_player_mode_summary"
+        android:order="-95"
+        android:defaultValue="false"  />
+
     <!-- Also vibration -->
     <Preference
         android:fragment="com.android.settings.accessibility.VibrationSettings"
