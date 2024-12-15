@@ -114,6 +114,7 @@ android_library {
         "keyboard_flags_lib",
         "custom-preference",
         "vendor.lineage.fastcharge-V1.0-java",
+        "androidx.room_room-runtime",
     ],
 
     plugins: [
