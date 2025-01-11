@@ -37,7 +37,6 @@
     
     <!-- aosPB maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="aospb_maintainer" translatable="false">Unofficial Maintainer</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
