@@ -39,6 +39,11 @@
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
     <!-- AdGuard DNS hostname -->
     <string name="private_dns_hostname_adguard" translatable="false">dns.adguard-dns.com</string>
+
+    <!-- ControlD DNS Option -->
+    <string name="private_dns_mode_controld" translatable="false">Control D DNS</string>
+    <!-- ControlD hostname -->
+    <string name="private_dns_hostname_controld" translatable="false">p2.freedns.controld.com</string>
     
     <!-- aosPB maintainer -->
     <string name="maintainer">Maintainer</string>
