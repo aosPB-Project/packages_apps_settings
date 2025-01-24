@@ -31,9 +31,9 @@
     <string name="show_dev_already_awaken">No need, you have already enabled development settings.</string>
 
     <!-- Private DNS -->
-    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS (Malware Protected)</string>
     <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
-    <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+    <string name="private_dns_hostname_cloudflare" translatable="false">security.cloudflare-dns.com</string>
 
     <!-- AdGuard DNS Option -->
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
