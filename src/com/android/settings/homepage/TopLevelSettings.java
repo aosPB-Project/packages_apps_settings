@@ -221,7 +221,25 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             if (icon != null) {
                 icon.setTint(tintColor);
             }
+            onSetPrefCard();
         });
+    }
+
+    private void onSetPrefCard() {
+        int setPREF = -160;
+        final PreferenceScreen screen = getPreferenceScreen();
+        final int count = screen.getPreferenceCount();
+        for (int i = 0; i < count; i++) {
+            final Preference preference = screen.getPreference(i);
+            String key = preference.getKey();
+
+            if (key.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")){
+                preference.setOrder(setPREF);
+            }
+            else if (key.equals("top_level_google")){
+                preference.setOrder(setPREF);
+            }
+        }
     }
 
     @Override
