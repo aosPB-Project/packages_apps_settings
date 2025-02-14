@@ -83,6 +83,9 @@
     <!-- aospb Version -->
     <string name="aospb_version">aosPB-Project version</string>
 
+    <!-- Build Information -->
+    <string name="build_information">Build Information</string>
+
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
