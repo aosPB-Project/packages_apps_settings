@@ -20,6 +20,15 @@
     android:key="system_dashboard_screen"
     android:title="@string/header_category_system">
 
+    <!-- Misc Settings -->
+    <Preference
+        android:key="misc_settings"
+        android:title="@string/misc_settings_title"
+        android:summary="@string/misc_settings_summary"
+        android:icon="@drawable/ic_misc_settings"
+        android:order="-261"
+        android:fragment="com.android.settings.aospb.misc.MiscSettings"/>
+
     <Preference
         android:key="language_settings"
         android:title="@string/languages_settings"
@@ -45,15 +54,6 @@
         android:order="-254"
         android:fragment="com.android.settings.inputmethod.TouchpadAndMouseSettings"
         settings:controller="com.android.settings.inputmethod.TouchpadAndMouseSettingsController"/>
-
-    <!-- Misc Settings -->
-    <Preference
-        android:key="misc_settings"
-        android:title="@string/misc_settings_title"
-        android:summary="@string/misc_settings_summary"
-        android:icon="@drawable/ic_misc_settings"
-        android:order="-252"
-        android:fragment="com.android.settings.aospb.misc.MiscSettings"/>
 
     <Preference
         android:icon="@drawable/ic_hand_gesture" 
