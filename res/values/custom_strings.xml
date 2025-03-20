@@ -86,9 +86,25 @@
     <!-- Build Information -->
     <string name="build_information">Build Information</string>
 
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
     <!-- Misc Settings -->
     <string name="misc_settings_title">Miscellaneous</string>
     <string name="misc_settings_summary">Collection of some extra features</string>
+
+    <!-- Battery Custs fragment -->
+    <string name="battery_custs_title">Battery Styles</string>
+    <string name="battery_custs_summary">Change the look and feel of the statusbar battery icon</string>
 
     <!-- JSON based PIF spoofing -->
     <string name="spoofing_pif_manage_title">Play Integrity spoofing</string>
