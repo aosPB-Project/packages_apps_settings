@@ -64,12 +64,12 @@
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController"
         settings:keywords="@string/keywords_battery_adaptive_preferences" />
 
-    <!-- <Preference
+    <Preference
         android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
         android:key="battery_info"
         android:title="@string/battery_info"
         settings:controller="com.android.settings.deviceinfo.batteryinfo.BatteryInfoPreferenceController"
-        settings:keywords="@string/keywords_battery_info" /> -->
+        settings:keywords="@string/keywords_battery_info" />
 
     <SwitchPreference
         android:key="fast_charging"
